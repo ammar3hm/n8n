@@ -8,8 +8,8 @@ services:
       - "5678:5678"
     environment:
       - N8N_BASIC_AUTH_ACTIVE=true
-      - N8N_BASIC_AUTH_USER=admin        # غيرها لاسم المستخدم اللي تبغاه
-      - N8N_BASIC_AUTH_PASSWORD=yourpassword  # غيرها لكلمة سر قوية
+      - N8N_BASIC_AUTH_USER=ammar        # غيرها لاسم المستخدم اللي تبغاه
+      - N8N_BASIC_AUTH_PASSWORD=alam1alam1  # غيرها لكلمة سر قوية
       - N8N_HOST=n8n.onrender.com        # حط رابط Render اللي بيطلع لك
       - N8N_PORT=5678
       - N8N_PROTOCOL=https
